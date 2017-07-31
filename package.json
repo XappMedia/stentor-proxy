@@ -8,7 +8,7 @@
   "scripts": {
     "build": "npm run build_ts && npm run build_docker",
     "build_ts": "./node_modules/typescript/bin/tsc",
-    "build_docker": "docker build -t stentor/proxy .",
+    "build_docker": "docker build -t xappmedia/proxy .",
     "clean": "rm -r node_modules && rm *.js && rm *.map",
     "test": "npm run build && test",
     "local": "npm run build_ts && node index.js",

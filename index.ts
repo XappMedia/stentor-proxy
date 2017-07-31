@@ -3,9 +3,9 @@ import * as express from "express";
 const proxy = require("http-proxy-middleware");
 
 const PORT = 8080;
-const HOST = "127.0.0.1";
+const HOST = "0.0.0.0";
 
-const REDIRECT_DOMAIN: string = process.env["DOMAIN"] || "https://api.xapp.media";
+const REDIRECT_DOMAIN: string = process.env["STENTOR_DOMAIN"] || "https://dev-east-api.xapp.media";
 
 const app = express();
 
