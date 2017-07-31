@@ -1,0 +1,14 @@
+# OS specific files.
+**/.DS_Store
+
+# The node modules because those will be installed on the docker image
+node_modules
+
+# Any logs
+*.log
+
+# Any typescript specific files.
+*.ts
+*.map
+tslint.json
+tsconfig.json

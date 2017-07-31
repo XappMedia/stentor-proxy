@@ -1,0 +1,11 @@
+node_modules/
+.tmp/
+.nyc_output/
+
+# Do not track the generated javascript and map files from typescript
+*.js
+*.js.map
+
+**/.DS_Store
+
+npm-debug.log
